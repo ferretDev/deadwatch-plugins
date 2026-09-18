@@ -1,0 +1,34 @@
+{
+  "updated_at": "2026-09-18T22:24:45Z",
+  "plugins": {
+    "dw-dossier": {
+      "version": "2.3.0",
+      "package": "https://github.com/ferretDev/deadwatch-plugins/releases/download/dw-dossier-2.3.0/dw-dossier-2.3.0.zip",
+      "sha256": "ba62548ecc1bb5d5902225822bd3efd47ac886e89021b31b8abfb7ab840b9f73",
+      "name": "Dossier",
+      "requires_php": "8.0",
+      "tested": "7.1",
+      "changelog": "2.3.0 \u2014 Setup wizard runs a baseline audit and connects an MCP client; working defaults; one-click actions; tooltips and help tabs.",
+      "released_at": "2026-09-18T22:24:45Z"
+    },
+    "warden-scanner": {
+      "version": "1.7.1",
+      "package": "https://github.com/ferretDev/deadwatch-plugins/releases/download/warden-scanner-1.7.1/warden-scanner-1.7.1.zip",
+      "sha256": "8bb5350263e4c3adf9cca5daa3d46d81e1ea4911ad6f7905c62e66a4fbf9fb3a",
+      "name": "Warden Scanner",
+      "requires_php": "8.0",
+      "tested": "7.1",
+      "changelog": "1.7.1 \u2014 Setup wizard runs a benchmark scan and records a file-integrity baseline; watchers; alert routing; MCP access; baseline recorded automatically when none exists.",
+      "released_at": "2026-09-18T22:24:45Z"
+    },
+    "deadwatch-inspector": {
+      "version": "1.0.0",
+      "package": "https://github.com/ferretDev/deadwatch-plugins/releases/download/deadwatch-inspector-1.0.0/deadwatch-inspector-1.0.0.zip",
+      "sha256": "896de82d8b5463de0e6eff9fb0da379c0842a0c884712780b43dfdd003dcea9a",
+      "name": "Inspector",
+      "store_url": null,
+      "changelog": "1.0.0 \u2014 First production build: connect to your own DeadWatch, on-demand page tools, store-ready manifest.",
+      "released_at": "2026-09-18T22:24:45Z"
+    }
+  }
+}
