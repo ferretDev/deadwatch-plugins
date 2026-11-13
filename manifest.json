@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-18T22:24:45Z",
+  "updated_at": "2026-11-13T09:42:04Z",
   "plugins": {
     "dw-dossier": {
-      "version": "2.3.0",
-      "package": "https://github.com/ferretDev/deadwatch-plugins/releases/download/dw-dossier-2.3.0/dw-dossier-2.3.0.zip",
-      "sha256": "ba62548ecc1bb5d5902225822bd3efd47ac886e89021b31b8abfb7ab840b9f73",
+      "version": "2.4.9",
+      "package": "https://github.com/ferretDev/deadwatch-plugins/releases/download/dw-dossier-2.4.9/dw-dossier-2.4.9.zip",
+      "sha256": "89f29d4e4fb4de6e98e8cc95cb908a87471734189e8bb1c3f89c5b8631f181dd",
       "name": "Dossier",
       "requires_php": "8.0",
       "tested": "7.1",
-      "changelog": "2.3.0 \u2014 Setup wizard runs a baseline audit and connects an MCP client; working defaults; one-click actions; tooltips and help tabs.",
-      "released_at": "2026-09-18T22:24:45Z"
+      "changelog": "2.4.9 \u2014 Setup run reads page builder pages as text and finds the images a builder places. A plan granted by name with no feature list opens what that plan includes. The health score says Not scored yet until something has measured the site, and the finished baseline audit counts toward it. Locked features say why. New read-only ability preview-setup-step. The readiness report to a paired DeadWatch instance carries plan, setup progress and counts, no page content. Fixes: six broken links counted on a site with none; the settings page showed Upgrade Required for a feature the plan includes; a site with nothing published scored 100. Since 2.3.0 \u2014 2.4.8: the performance module no longer prints one WordPress inline script line twice. 2.4.7: the licence answer stays in force for up to two days with a background re-check; founder plan has every feature; the abilities bridge is part of every paid plan. 2.4.6: first-time setup run for an administrator's agent, thirteen stages with checkpoints, every write shown first; agent-writes switch and a change log. 2.4.5: abilities exposed over the Abilities REST API. 2.4.4: Dossier clears its own four URLs from the page cache after an update. 2.4.1 to 2.4.3: SEO score measures the site; no change to public robots tags, URLs or structured data when switched on beside another SEO plugin. 2.4.0: search and AI readiness scores reported to DeadWatch as scores, flags, schema type names and page paths only; WebMCP v0.1.",
+      "released_at": "2026-11-13T09:42:04Z"
     },
     "warden-scanner": {
       "version": "1.7.1",
