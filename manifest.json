@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T23:15:59Z",
+  "updated_at": "2026-11-16T20:10:43Z",
   "plugins": {
     "dw-dossier": {
       "version": "2.5.1",
@@ -12,14 +12,14 @@
       "released_at": "2026-11-15T23:15:59Z"
     },
     "warden-scanner": {
-      "version": "1.7.1",
-      "package": "https://github.com/ferretDev/deadwatch-plugins/releases/download/warden-scanner-1.7.1/warden-scanner-1.7.1.zip",
-      "sha256": "8bb5350263e4c3adf9cca5daa3d46d81e1ea4911ad6f7905c62e66a4fbf9fb3a",
+      "version": "1.15.0",
+      "package": "https://github.com/ferretDev/deadwatch-plugins/releases/download/warden-scanner-1.15.0/warden-scanner-1.15.0.zip",
+      "sha256": "398faceadb58d89e2bfab1f01887417c062a151330187858d4d1063a8c66484e",
       "name": "Warden Scanner",
       "requires_php": "8.0",
       "tested": "7.1",
-      "changelog": "1.7.1 \u2014 Setup wizard runs a benchmark scan and records a file-integrity baseline; watchers; alert routing; MCP access; baseline recorded automatically when none exists.",
-      "released_at": "2026-09-18T22:24:45Z"
+      "changelog": "1.15.0 \u2014 PHP errors on demand. Your DeadWatch can read this site's PHP error log and debug.log, masked, as a read that changes nothing. A timed capture logs every error level to a private file for up to 60 minutes and stops on its own; wp-config.php is never edited. When the site hits a fatal error, one masked report goes to the paired DeadWatch account: the error, where it was raised, which plugin or theme, and the last log lines; one report per distinct error, and a site administrator switches it on or off (off always holds). Errors while WordPress is still loading are reported through a small handler file in wp-content that Warden removes when reports are off. Fixed: an uncaught error in any plugin or theme gave visitors an empty page instead of the WordPress error page, and warnings from other plugins were kept out of the PHP error log. Fixed: several lines written to the PHP error log on every request, and a translation notice under WordPress 6.7 and later. Security: remote updates, rollbacks, plugin installs and plugin switches from DeadWatch now follow this site's fleet access setting and are written to the activity log. Updates and rollbacks need reads and changes; installing, switching or deleting a plugin needs incident response; with fleet access off, none of them run. Quarantined files are stored under a name no web server runs, and copies made by earlier versions are renamed once. A restore checks the stored path again before it writes. The .htaccess backup takes only .htaccess files inside this install. Log lines kept with incident evidence are masked. The settings tool takes its exact action words only.",
+      "released_at": "2026-11-16T20:10:43Z"
     },
     "deadwatch-inspector": {
       "version": "1.0.0",
